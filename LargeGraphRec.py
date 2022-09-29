@@ -10,6 +10,7 @@ Here we first define some parameters:
 
 '''
 N_Triangle = 5
+N_Rextangle = 5
 TriNodes = [[3 * i , 3 * i + 1, 3 * i + 2] for i in range(N_Triangle)]
 center = N_Triangle * 3 
 A = np.eye(center + 1 ) * 0
